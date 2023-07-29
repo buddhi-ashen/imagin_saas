@@ -1,0 +1,13 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[4].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[4].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"components\\sidebar.tsx","import":"Montserrat","arguments":[{"weight":"600","subsets":["latin"]}],"variableName":"poppins"} ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: '__Montserrat_Fallback_f4d50f';
+  src: local("Arial");
+  ascent-override:84.95%;
+  descent-override:22.03%;
+  line-gap-override:0.00%;
+  size-adjust:113.95%;
+}@font-face {font-family: '__Montserrat_Fallback_Fallback_f4d50f';src: local("Arial");ascent-override: 84.95%;descent-override: 22.03%;line-gap-override: 0.00%;size-adjust: 113.95%
+}.__className_f4d50f {font-family: '__Montserrat_Fallback_f4d50f', '__Montserrat_Fallback_Fallback_f4d50f';font-weight: 600;font-style: normal
+}
