@@ -32,12 +32,12 @@ export async function POST(
       return new NextResponse("Free trial has expired. Please upgrade to pro.", { status: 403 });
     }
 
-    const response = await replicate.run(
-      "facebookresearch/musicgen:7a76a8258b23fae65c5a22debb8841d1d7e816b75c2f24218cd2bd8573787906",
-      {
-        input: {
-          prompt_a: "piano"
-        }
+    const output = await replicate.run(
+      "pollinations/music-gen:9b8643c06debace10b9026f94dcb117f61dc1fee66558a09cde4cfbf51bcced6",
+  {
+    input: {
+      text: "Music to watch girls go by"
+    }
       }
     );
 
