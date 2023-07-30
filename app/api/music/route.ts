@@ -32,14 +32,15 @@ export async function POST(
       return new NextResponse("Free trial has expired. Please upgrade to pro.", { status: 403 });
     }
 
-    const output = await replicate.run(
-      "pollinations/music-gen:9b8643c06debace10b9026f94dcb117f61dc1fee66558a09cde4cfbf51bcced6",
+   const output = await replicate.run(
+  "riffusion/riffusion:8cf61ea6c56afd61d8f5b9ffd14d7c216c0a93844ce2d82ac1c9ecc9c7f24e05",
   {
     input: {
-      text: "Music to watch girls go by"
+      prompt_a: "funky synth solo"
     }
-      }
-    );
+  }
+);
+      
 
     if (!isPro) {
       await incrementApiLimit();
