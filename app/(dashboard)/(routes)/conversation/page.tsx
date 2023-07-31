@@ -61,15 +61,15 @@ const ConversationPage = () => {
     <div>
       <Heading
         title="Conversation"
-        description="Our most advanced conversation model."
+        description="Our most advanced conversation model ImaginGPT V.1.0."
         icon={MessageSquare}
         iconColor="text-violet-500"
         bgColor="bg-violet-500/10"
       />
       
               
-              <Button className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
-                Generate
+              <Button className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon" href="https://imagingpt.vercel.app/">
+                Try ImaginGPT
               </Button>
           
     </div>
