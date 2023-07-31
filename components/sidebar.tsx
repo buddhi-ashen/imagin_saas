@@ -21,7 +21,7 @@ const routes = [
   {
     label: 'Conversation',
     icon: MessageSquare,
-    href: '/conversation',
+    href: 'https://imagingpt.vercel.app/',
     color: "text-violet-500",
   },
   {
