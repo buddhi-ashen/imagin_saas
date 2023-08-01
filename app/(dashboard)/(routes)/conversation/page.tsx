@@ -23,6 +23,7 @@ import { MessageSquare } from "lucide-react";
   </Button>
 </a>
             </div>
+        </div>
     </div>
    );
 }
