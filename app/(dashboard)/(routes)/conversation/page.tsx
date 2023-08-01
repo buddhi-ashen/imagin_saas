@@ -1,11 +1,9 @@
-"use client";
-
 import { Heading } from "@/components/heading";
 import { Button } from "@/components/ui/button";
 import { MessageSquare } from "lucide-react";
 
-
-  return ( 
+const ConversationPage = () => {
+  return (
     <div>
       <Heading
         title="Conversation"
@@ -16,16 +14,15 @@ import { MessageSquare } from "lucide-react";
       />
       <div className="px-4 lg:px-8">
         <div>
-          
-              <a href="https://imagingpt.vercel.app/">
-  <Button className="col-span-12 lg:col-span-2 w-full" size="icon">
-    Try ImaginGPT V.1.0
-  </Button>
-</a>
-            </div>
+          <a href="https://imagingpt.vercel.app/">
+            <Button className="col-span-12 lg:col-span-2 w-full" size="icon">
+              Try ImaginGPT V.1.0
+            </Button>
+          </a>
         </div>
+      </div>
     </div>
-   );
-}
- 
+  );
+};
+
 export default ConversationPage;
