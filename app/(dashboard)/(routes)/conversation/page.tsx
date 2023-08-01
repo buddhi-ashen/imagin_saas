@@ -131,9 +131,20 @@ const ConversationPage = () => {
             ))}
           </div>
         </div>
+        
+      {/* New button */}
+      <div className="mt-4 px-4 lg:px-8">
+        <Link href="https://imagingpt.vercel.app/" passHref>
+          <a target="_blank" rel="noopener noreferrer">
+            <Button className="w-full" size="icon">
+              Try ImaginGPT V.1.0
+            </Button>
+          </a>
+        </Link>
       </div>
     </div>
-   );
+  );
 }
+
  
 export default ConversationPage;
