@@ -1,3 +1,4 @@
+"use client"; // Add this line at the beginning of the file
 import * as z from "zod";
 import axios from "axios";
 import { MessageSquare } from "lucide-react";
