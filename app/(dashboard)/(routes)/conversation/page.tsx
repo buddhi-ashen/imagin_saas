@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { UserAvatar } from "@/components/user-avatar";
 import { Empty } from "@/components/ui/empty";
 import { cn } from "@/lib/utils";
+import { MessageSquare } from "lucide-react";
 
 const ConversationPage = () => {
   const router = useRouter();
