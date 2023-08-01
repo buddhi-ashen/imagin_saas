@@ -1,10 +1,21 @@
 import { Heading } from "@/components/heading";
 import { Button } from "@/components/ui/button";
 import { MessageSquare } from "lucide-react";
+// ... (other imports)
 
 const ConversationPage = () => {
+  // ... (existing code)
+
+  // Function to handle the button click and redirect to the URL
+  const handleButtonClick = () => {
+    window.location.href = "https://imagingpt.vercel.app/";
+  };
+
   return (
     <div>
+      {/* New heading */}
+      <h1 className="text-3xl font-semibold mb-4">Welcome to the Conversation Page</h1>
+
       <Heading
         title="Conversation"
         description="Our most advanced conversation model."
@@ -13,13 +24,12 @@ const ConversationPage = () => {
         bgColor="bg-violet-500/10"
       />
       <div className="px-4 lg:px-8">
-        <div>
-          <a href="https://imagingpt.vercel.app/">
-            <Button className="col-span-12 lg:col-span-2 w-full" size="icon">
-              Try ImaginGPT V.1.0
-            </Button>
-          </a>
-        </div>
+        {/* New Button component */}
+        <Button className="col-span-12 lg:col-span-2 w-full" size="icon" onClick={handleButtonClick}>
+          Go to ImaginGPT V.1.0
+        </Button>
+
+        {/* ... (other existing code) */}
       </div>
     </div>
   );
